@@ -52,7 +52,7 @@
          
             Amherst, NY & surrounding areas. '
          
-        Apollo Power Washing provides pressure washing services in Buffalo, NY. We pride ourselves on providing professional customer care, hard work ethic and educating our customers …
+        Apollo Power Washing provides pressure washing services in Buffalo, NY. We pride ourselves on providing professional customer care, and educating our customers.
     >
 
 
@@ -185,7 +185,7 @@
                     About Us
                 </h5>
                 <p class="py-5 px-5 lg:px-0 mb-5 text-center lg:text-left  lg:text-xl">
-                Apollo Power Washing provides pressure washing services in Buffalo, NY. We pride ourselves on providing professional customer care, hard work ethic and educating our customers about Pressure Washing and Exterior Cleaning 
+                Apollo Power Washing provides pressure washing services in Buffalo, NY. We pride ourselves on providing professional customer care, and educating our customers. 
                 </p>                
             </div>
 
@@ -906,6 +906,63 @@
             <!-- Question 1 -->
             <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
                 <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
+                    <span class = "flex text-left lg:text-left">Do you have any coupons?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>Yes! Refer a friend and get 10% back on the services we provide for them, or 15% towards a future service with us!</p>
+            </div>
+
+        
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
+                    <span class = "flex text-left lg:text-left">Do I need to be home when you're working?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>No you don't! Please ensure that all windows and doors are closed, the driveway is clear of vehicles, water is on somewhere around the house and gates/codes are accessible. </p>
+            </div>
+
+        
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
+                    <span class = "flex text-left lg:text-left">What are the black streaks on my roof, can you even clean it?!</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>The answer is YES! The black streaks you see are more than likely what is called Gleocapsa Magma. This is an algae that will not only affect curb appeal but can also greatly diminish the integrity of your shingles. If there is biological growth on your roof, it should be remedied soon. Cleaning your roof with a pressure washer can remove the granules on the shingles and should never be done. Shingle manufacturing companies like ARMA (Asphalt Roofing Manufacturers Association) recommend a low pressure (soft wash) cleaning of your roof. </p>
+            </div>
+
+        
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
                     <span class = "flex text-left lg:text-left">What's the best way to reach you?</span>
                     <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </h3>
@@ -963,25 +1020,6 @@
             <!-- Question 1 -->
             <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
                 <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
-                    <span class = "flex text-left lg:text-left">Do you have any coupons?</span>
-                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </h3>
-                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
-                    x-transition:enter="transition-all ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-4"
-                    x-transition:enter-end="opacity-100 transform -translate-y-0"
-                    x-transition:leave="transition-all ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform -translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-4"
-                    x-show="show"
-                    x-cloak>Yes! Refer a friend and get 10% back on the services we provide for them, or 15% towards a future service with us!</p>
-            </div>
-
-        
-
-            <!-- Question 1 -->
-            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
-                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
                     <span class = "flex text-left lg:text-left">Do you give phone quotes?</span>
                     <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </h3>
@@ -1013,44 +1051,6 @@
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
                     x-cloak>Pressure Washing is reserved for things such as concrete or brick. Taking pressure to the side of your home can severely damage or flat out ruin the siding of your home, roof, fences, decks, etc. <br><br>We have a state of the art soft wash system that uses LOW PRESSURE not much more than a garden hose and letting our cleaning agents do the work safely for us. </p>
-            </div>
-
-        
-
-            <!-- Question 1 -->
-            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
-                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
-                    <span class = "flex text-left lg:text-left">Do I need to be home when you're working?</span>
-                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </h3>
-                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
-                    x-transition:enter="transition-all ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-4"
-                    x-transition:enter-end="opacity-100 transform -translate-y-0"
-                    x-transition:leave="transition-all ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform -translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-4"
-                    x-show="show"
-                    x-cloak>No you don't! Please ensure that all windows and doors are closed, the driveway is clear of vehicles, water is on somewhere around the house and gates/codes are accessible. </p>
-            </div>
-
-        
-
-            <!-- Question 1 -->
-            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
-                <h3 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-800  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-300  lg:text-left">
-                    <span class = "flex text-left lg:text-left">What are the black streaks on my roof, can you even clean it?!</span>
-                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </h3>
-                <p class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-800 text-center lg:text-left"
-                    x-transition:enter="transition-all ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-4"
-                    x-transition:enter-end="opacity-100 transform -translate-y-0"
-                    x-transition:leave="transition-all ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform -translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-4"
-                    x-show="show"
-                    x-cloak>The answer is YES! The black streaks you see are more than likely what is called Gleocapsa Magma. This is an algae that will not only affect curb appeal but can also greatly diminish the integrity of your shingles. If there is biological growth on your roof, it should be remedied soon. Cleaning your roof with a pressure washer can remove the granules on the shingles and should never be done. Shingle manufacturing companies like ARMA (Asphalt Roofing Manufacturers Association) recommend a low pressure (soft wash) cleaning of your roof. </p>
             </div>
 
         
